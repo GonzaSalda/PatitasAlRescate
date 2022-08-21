@@ -96,7 +96,6 @@ header img{
 }
 
 
-
 /*******************************************/
 
 
@@ -234,7 +233,7 @@ background-color: var(--warm-black);
     height: 40px;
     top:-20px;
     left: calc(50% - 18px);
-    background-image: url(assets/icons/Group.svg);
+    background-image: url(assets/icons/logo.svg);
     background-repeat: no-repeat;
     background-size: contain;
 }
@@ -442,7 +441,10 @@ background-color: var(--warm-black);
     scroll-snap-type: proximity;
 }
 
+/*******************************************/
 
+
+/******FOOTER******/
 footer{
     display: flex;
     width: 100%;
