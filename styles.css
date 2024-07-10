@@ -35,15 +35,30 @@ header{
     background: linear-gradient(207.8deg, #201E1C 16.69%, #F7931A 100%);
 }
 
-header img{
-    width: 150px;
+.header-title{
+    width: 100%;
     height: 60px;
-    margin-top:50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 16px;
+}
+
+.header-title h1{
+    font-size: 2.4rem;
+    font-weight: bold;
+    line-height: 2.6rem;
+    color: var(--just-white);
+}
+
+.header-title img{
+    width: 100px;
+    height: 60px;
     align-self: center;
     
 }
 
-.header--tittle-container{
+.header--title-container{
     width: 90%;
     min-width: 288px;
     max-width: 900px;
@@ -53,14 +68,14 @@ header img{
     align-self: center;
 }
 
-.header--tittle-container h1{
+.header--title-container h1{
     font-size: 2.4rem;
     font-weight: bold;
     line-height: 2.6rem;
     color: var(--just-white);
 }
 
-.header--tittle-container p{
+.header--title-container p{
     margin-top: 25px;
     font-size: 1.4rem;
     font-weight: 500;
@@ -68,7 +83,7 @@ header img{
     color: var(--soft-orange);
 }
 
-.header--tittle-container .header--button{
+.header--title-container .header--button{
     position: absolute;
     left: calc(50% - 118px);
     top: 270px;
@@ -159,7 +174,7 @@ main{
     font-family: 'Inter', sans-serif;
 }
 
-.main-currency-table .currency-table--tittle{
+.main-currency-table .currency-table--title{
     margin-bottom: 15px;
     font-size: 1.8rem;
     font-weight: bold;
@@ -313,7 +328,7 @@ background-color: var(--warm-black);
     
 }
 
-.product--card-tittle{
+.product--card-title{
     margin-bottom: 15px;
     font-size: 1.8rem;
     font-weight:bold;
@@ -358,14 +373,14 @@ background-color: var(--warm-black);
     padding-bottom: 70px;
     text-align: center;
 }
-.plans--tittle{
+.plans--title{
     width: 90%;
     min-width: 288px;
     height: auto;
     margin: 0 auto;
     margin-bottom: 20px;
 }
-.plans--tittle h2{
+.plans--title h2{
     padding-top: 50px;
     font-size: 2.4rem;
     font-weight: bold;
@@ -374,7 +389,7 @@ background-color: var(--warm-black);
    
 }
 
-.plans--tittle p{
+.plans--title p{
     padding-top: 30px;
     font-size: 1.4rem;
 
